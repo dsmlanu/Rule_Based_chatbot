@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Greetings!"]
+    },
+    {
+      "tag": "balance",
+      "patterns": ["What is my balance?", "Check balance", "Show my balance"],
+      "responses": ["Your current balance is ₹10,000."]
+    },
+    {
+      "tag": "loan",
+      "patterns": ["How to apply for loan?", "Loan process", "I need a loan"],
+      "responses": ["To apply for a loan, visit your nearest branch or apply online."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye!", "Take care!", "See you soon!"]
+    }
+  ]
+}
